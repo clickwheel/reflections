@@ -1,5 +1,27 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Initializing a repository crates a .git file. Whith in the .git file all the historical versions of repositories are stored. Since the file starts with ".", these files are hidden from the end-user.
+- Initializing a repository crates a .git file. Whith in the .git file all the historical versions of repositories are stored. Since the file starts with ".", these files are hidden from the end-user.
 
 Do it to store all hostorical versions.
+
+How is the staging area different from the working directory and the repository?
+
+- Staging area is a place holder to hold all the documents one wants to commit. Repository includes all commited files and directory includes current files and historical commited files.
+
+What value do you think it offers?
+
+- The advantage is much more fine grained control over exactly what you are comitting
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
