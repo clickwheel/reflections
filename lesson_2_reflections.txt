@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository crates a .git file. Whith in the .git file all the historical versions of repositories are stored. Since the file starts with ".", these files are hidden from the end-user.
+
+Do it to store all hostorical versions.
