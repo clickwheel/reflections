@@ -15,13 +15,21 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+- By comparing staging area, repository and working directory one can make sure there are small incremental logical changes per commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+- When you want to create sub branches.
+
 How do the diagrams help you visualize the branch structure?
+- They show a clear path to how
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+-Merging two branches results in combining appropriate changes made in each branch resulting in one unified branch. It also ensures that all the changes prior in each branch are traceable.
+- We represent the way we do for ease of tracking.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+- Automatic merging may lead to incorrect merging. Manual merging especially during conflicts is much more efficient and easier.
